@@ -1227,27 +1227,28 @@
   left: 159px;
 }
 .blog1 {
-  left: 262px;
-}
-.blog1,
-.contact-us1,
-.court1 {
-  position: relative;
+  position: absolute;
   top: 20px;
+  left: 260px;
   line-height: 16px;
 }
 .court1 {
-  left: 332px;
-  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 323px;
+  line-height: 16px;
 }
 .contact-us1 {
-  left: 413px;
+  position: absolute;
+  top: 15px;
+  left: 390px;
+  line-height: 16px;
 }
 .left-content1 {
   position: absolute;
   top: calc(50% - 26px);
   left: 160px;
-  width: 614px;
+  width: 77px;
   height: 52px;
   flex-shrink: 0;
 }
