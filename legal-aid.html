@@ -828,7 +828,7 @@
           src="./public/line-roundedarrow-right@2x.png"
         />
       </div>
-      <div class="master-primary-button3">
+      <div class="master-primary-button3" id="master-primary-button3">
         <img
           class="line-roundedsearch-icon1"
           alt=""
@@ -919,6 +919,13 @@
       if (masterPrimaryButton) {
         masterPrimaryButton.addEventListener("click", function (e) {
           window.location.href = "./paid-lawyer.html";
+        });
+      }
+
+      var masterPrimaryButton = document.getElementById("master-primary-button3");
+      if (masterPrimaryButton) {
+        masterPrimaryButton.addEventListener("click", function (e) {
+          window.location.href = "./ticket-paid.html";
         });
       }
       </script>
